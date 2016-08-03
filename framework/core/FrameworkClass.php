@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: Hsu * Date: 8/3/16 * Time: 23:46 */class FrameworkClass{	public  function run() {		echo "running....";	}}
