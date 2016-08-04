@@ -1,1 +1,1 @@
-<?php// entrance,one inputinclude "framework/core/FrameworkClass.php";$app = new FrameworkClass();$app->run();
+<?php// entrance,one inputinclude "framework/core/FrameworkClass.php";//$app = new FrameworkClass();//$app->run();FrameworkClass::run();
