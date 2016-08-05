@@ -49,8 +49,8 @@ class Framework {
 	public static function router() {
         //instance controller and call the function
         
-        $controller_name = CONTROLLER . "Controller";  //GoodsController
-        $action_name = ACTION . "Action"; //addAction
+        $controller_name = CONTROLLER . "Controller";  //IndexController
+        $action_name = ACTION . "Action"; //indexAction
         
         $controller = new $controller_name;
         $controller->$action_name();
@@ -60,6 +60,8 @@ class Framework {
 	//register autoload
     
     public static function autoload() {
+
+        //auto injection,"load" is reference fllow function load($classname)
         spl_autoload_register(array(__CLASS__ , "load"));
 
 	}
@@ -68,7 +70,7 @@ class Framework {
     //load function
     public static function load($classname) {
         
-        //only load application of controller and model ,such as GoodsController, AdminModel
+        //only load application of controller and model ,such as IndexController, AdminModel
         if (substr($classname,-10) == 'Controller') {
             require CUR_CONTROLLER_PATH . "{$classname}.php";
         } elseif (substr($classname, -5) == "Model") {
