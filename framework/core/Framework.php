@@ -61,7 +61,7 @@ class Framework {
     
     public static function autoload() {
 
-        //auto injection,"load" is reference fllow function load($classname)
+        //auto injection,"load" is reference follow function load($classname)
         spl_autoload_register(array(__CLASS__ , "load"));
 
 	}
