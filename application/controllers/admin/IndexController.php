@@ -4,6 +4,9 @@
 class IndexController
 {
     public function indexAction() {
-        echo "admin....index";
+//       echo "admin....index";
+
+        include CUR_VIEW_PATH . "index.html";
+
     }
 }
