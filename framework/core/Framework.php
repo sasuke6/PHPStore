@@ -42,6 +42,14 @@ class Framework {
         
         define("CUR_CONTROLLER_PATH", CONTROLLER_PATH . PLATFORM . DS);
         define("CUR_VIEW_PATH", VIEW_PATH . PLATFORM . DS);
+
+        //load the core controlller
+
+        require CORE_PATH . "Controller.php";
+        require CORE_PATH . "Model.php";
+        require DB_PATH . "Mysql.php";
+
+        $GLOBALS['config'] = include CONFIG_PATH . "config.php";
 		
 	}
 
