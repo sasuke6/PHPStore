@@ -23,12 +23,12 @@ class IndexController extends Controller
     }
 
     public function mainAction() {
-//        include CUR_VIEW_PATH . "main.html";
-        $adminModel = new AdminModel("admin");
-        $admins = $adminModel->test();
-        echo "<pre>";
-        var_dump($admins);
-        echo "</pre>";
+        include CUR_VIEW_PATH . "main.html";
+//        $adminModel = new AdminModel("admin");
+//        $admins = $adminModel->test();
+//        echo "<pre>";
+//        var_dump($admins);
+//        echo "</pre>";
     }
 
 }
