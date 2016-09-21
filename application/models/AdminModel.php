@@ -5,4 +5,5 @@ class  AdminModel extends Model {
         $sql = "SELECT * FROM {$this->table}";
         return $this->db->getAll($sql);
     }
+
 }
