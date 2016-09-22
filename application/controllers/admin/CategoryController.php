@@ -3,9 +3,18 @@
 
 class CategoryController extends Controller {
 
+    //show goods category
+    public function indexAction() {
+        $categoryModel = new CategoryModel("category");
+        $cats = $categoryModel->getCats();
+
+        include CUR_VIEW_PATH . "cat_list.html";
+    }
 
     //show add category action
     public function addAction() {
+        $categoryModel = new CategoryModel("category");
+        $cats = $categoryModel->getCats();
         include CUR_VIEW_PATH . "cat_add.html";
     }
 
@@ -35,4 +44,19 @@ class CategoryController extends Controller {
             $this->jump("index.php?p=admin&c=category&a=add","添加分类失败",3);
         }
     }
+
+    public function editAction() {
+        $cat_id = $_GET['cat_id'] + 0;
+        $categoryModel = new CategoryModel('category');
+        $cat = $categoryModel->selectByPk($cat_id);
+
+        include CUR_VIEW_PATH . "cat_edit.html";
+
+    }
+
+    public function updateAction() {
+
+    }
+
+
 }

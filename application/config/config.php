@@ -7,9 +7,9 @@
  */
 
 return array(
-    "host" => "localhost",
-    "user" => "root",
-    "password" => "",
+    "host" => "192.168.10.10",
+    "user" => "homestead",
+    "password" => "secret",
     "dbname" => "shop",
     "port" => 3306,
     "charset" => "utf8",

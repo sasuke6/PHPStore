@@ -16,8 +16,8 @@ class Mysql{
         $port = isset($config['port'])? $config['port'] : '3306';
         $charset = isset($config['charset'])? $config['charset'] : '3306';
 
-        $this->conn = mysql_connect("$host:$port",$user,$password) or die('数据库连接错误');
-        mysql_select_db($dbname) or die('数据库选择错误');
+        $this->conn = mysqli_connect("$host:$port",$user,$password) or die('数据库链接错处');
+        mysqli_select_db($this->conn, $dbname);
         $this->setChar($charset);
     }
 
@@ -39,7 +39,9 @@ class Mysql{
      */
     public function query($sql){
         $this->sql = $sql;
-        $result = mysql_query($this->sql,$this->conn);
+//        $result = mysql_query($this->sql,$this->conn);
+        $result = mysqli_query($this->conn,$this->sql);
+
 
         if (! $result) {
             die($this->errno().':'.$this->error().'<br />出错语句为'.$this->sql.'<br />');
@@ -87,7 +89,7 @@ class Mysql{
     public function getAll($sql){
         $result = $this->query($sql);
         $list = array();
-        while ($row = mysql_fetch_assoc($result)){
+        while ($row = mysqli_fetch_assoc($result)){
             $list[] = $row;
         }
         return $list;
@@ -113,8 +115,11 @@ class Mysql{
      * 获取上一步insert操作产生的id
      */
     public function getInsertId(){
-        return mysql_insert_id($this->conn);
+//        return mysql_insert_id($this->conn);
+
+        return mysqli_insert_id($this->conn);
     }
+
     /**
      * 获取错误号
      * @access private
