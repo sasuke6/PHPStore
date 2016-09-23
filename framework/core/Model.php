@@ -100,7 +100,7 @@ class Model{
 
         if ($this->db->query($sql)) {
             # 成功，并判断受影响的记录数
-            if ($rows = mysql_affected_rows()) {
+            if ($rows = mysqli_affected_rows($this->db->conn)) {
                 # 有受影响的记录数
                 return $rows;
             } else {
@@ -135,7 +135,7 @@ class Model{
 
         if ($this->db->query($sql)) {
             # 成功，并判断受影响的记录数
-            if ($rows = mysql_affected_rows()) {
+            if ($rows = mysqli_affected_rows($this->db->conn)) {
                 # 有受影响的记录
                 return $rows;
             } else {

@@ -1,7 +1,7 @@
 <?php
 
 class Mysql{
-    protected $conn = false;  //数据库连接资源
+    public $conn = false;  //数据库连接资源
     protected $sql;           //sql语句
 
     /**
@@ -73,7 +73,7 @@ class Mysql{
      */
     public function getRow($sql){
         if ($result = $this->query($sql)) {
-            $row = mysql_fetch_assoc($result);
+            $row = mysqli_fetch_assoc($result);
             return $row;
         } else {
             return false;

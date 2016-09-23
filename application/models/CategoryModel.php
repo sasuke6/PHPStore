@@ -32,4 +32,16 @@ class CategoryModel extends AdminModel {
 
     }
 
+    //define a method to get current node of all the grandson node
+    public function getSubIds($pid) {
+        $sql = "SELECT * FROM {$this->table}";
+        $cats = $this->db->getAll($sql);
+        $cats = $this->tree($cats, $pid);
+        $list = array();
+        foreach ($cats as $cat) {
+            $list[] = $cat['cat_id'];
+        }
+        return $list;
+    }
+
 }
