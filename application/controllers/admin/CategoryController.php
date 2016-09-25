@@ -1,7 +1,7 @@
 <?php
 
 
-class CategoryController extends Controller {
+class CategoryController extends BaseController {
 
     //show goods category
     public function indexAction() {

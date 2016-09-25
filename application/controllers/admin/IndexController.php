@@ -2,7 +2,7 @@
 
 
 
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     public function indexAction() {
 

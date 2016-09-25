@@ -44,6 +44,8 @@ class Framework {
         require DB_PATH . "Mysql.php";
 
         $GLOBALS['config'] = include CONFIG_PATH . "config.php";
+
+        session_start();
 		
 	}
 
