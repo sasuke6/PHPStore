@@ -39,8 +39,10 @@ class Mysql{
      */
     public function query($sql){
         $this->sql = $sql;
-//        $result = mysql_query($this->sql,$this->conn);
         $result = mysqli_query($this->conn,$this->sql);
+
+        $temp = "[" . date('Y-m-d H:iLs') . "]" . $sql .PHP_EOL;
+        file_put_contents("log.txt",$temp,FILE_APPEND);
 
 
         if (! $result) {
