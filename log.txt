@@ -1,0 +1,37 @@
+[2016-09-26 23:18108]set names utf8
+[2016-09-26 23:18108]DESC cy_admin
+[2016-09-26 23:18108]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-09-26 23:18108]set names utf8
+[2016-09-26 23:18108]DESC cy_category
+[2016-09-26 23:18108]SELECT * FROM cy_category
+[2016-09-26 23:19146]set names utf8
+[2016-09-26 23:19146]DESC cy_category
+[2016-09-26 23:19146]SELECT * FROM cy_category
+[2016-09-26 23:20125]set names utf8
+[2016-09-26 23:20125]DESC cy_category
+[2016-09-26 23:20125]SELECT * FROM cy_category
+[2016-09-26 23:22113]set names utf8
+[2016-09-26 23:22113]DESC cy_category
+[2016-09-26 23:22113]select * from `cy_category` where `cat_id`=3
+[2016-09-26 23:22113]SELECT * FROM cy_category
+[2016-09-26 23:22116]set names utf8
+[2016-09-26 23:22116]DESC cy_category
+[2016-09-26 23:22116]SELECT * FROM cy_category
+[2016-09-26 23:23145]set names utf8
+[2016-09-26 23:23145]DESC cy_category
+[2016-09-26 23:23145]SELECT * FROM cy_category
+[2016-09-26 23:23147]set names utf8
+[2016-09-26 23:23147]DESC cy_category
+[2016-09-26 23:23147]SELECT * FROM cy_category
+[2016-09-27 00:12112]set names utf8
+[2016-09-27 00:12112]DESC cy_goods_type
+[2016-09-27 00:12112]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:28131]set names utf8
+[2016-09-27 00:28131]DESC cy_goods_type
+[2016-09-27 00:28131]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:28148]set names utf8
+[2016-09-27 00:28148]DESC cy_goods_type
+[2016-09-27 00:28148]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:34104]set names utf8
+[2016-09-27 00:34104]DESC cy_goods_type
+[2016-09-27 00:34104]SELECT * FROM cy_goods_type ORDER BY type_id
