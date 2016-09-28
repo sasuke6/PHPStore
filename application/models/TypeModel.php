@@ -8,5 +8,10 @@ class TypeModel extends Model {
         return $this->db->getAll($sql);
     }
 
+    public function getPageTypes($offset,$pagesize) {
+        $sql = "SELECT * FROM {$this->table} ORDER BY type_id LIMIT $offset,$pagesize";
+        return $this->db->getAll($sql);
+    }
+
 
 }

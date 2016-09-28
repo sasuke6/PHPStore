@@ -59,7 +59,8 @@ class Mysql{
      */
     public function getOne($sql){
         $result = $this->query($sql);
-        $row = mysql_fetch_row($result);
+//        $row = mysql_fetch_row($result);
+        $row = mysqli_fetch_row($result);
         if ($row) {
             return $row[0];
         } else {

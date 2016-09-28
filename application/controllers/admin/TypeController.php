@@ -4,7 +4,16 @@ class TypeController extends Controller {
 
     public function indexAction() {
         $typeModel = new TypeModel("goods_type");
-        $types = $typeModel->getTypes();
+//        $types = $typeModel->getTypes();
+        $current = isset($_GET['page']) ? $_GET['page'] : 1;
+        $pagesize = 2;
+        $offset = ($current - 1) * $pagesize;
+        $types = $typeModel->getPageTypes($offset, $pagesize);
+        $where = "";
+        $total = $typeModel->total($where);
+        $this->library("Page");
+        $page = new Page($total,$pagesize,$current,'index.php', array('p'=>'admin','c'=>'type','a'=>'index'));
+        $pageInfo = $page->showPage();
 
         include CUR_VIEW_PATH . "goods_type_list.html";
     }

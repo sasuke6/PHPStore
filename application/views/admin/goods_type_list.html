@@ -22,7 +22,6 @@
 		<tbody>
 			<tr>
 				<th>商品类型名称</th>
-				<th>属性分组</th>
 				<th>属性数</th>
 				<th>状态</th>
 				<th>操作</th>
@@ -44,18 +43,19 @@
       <td align="right" nowrap="true" colspan="6" style="background-color: rgb(255, 255, 255);">
             <!-- $Id: page.htm 14216 2008-03-10 02:27:21Z testyang $ -->
             <div id="turn-page">
-        总计  <span id="totalRecords">10</span>
-        个记录分为 <span id="totalPages">1</span>
-        页当前第 <span id="pageCurrent">1</span>
-        页，每页 <input type="text" size="3" id="pageSize" value="10" onkeypress="return listTable.changePageSize(event)">
-        <span id="page-link">
-          <a href="javascript:listTable.gotoPageFirst()">第一页</a>
-          <a href="javascript:listTable.gotoPagePrev()">上一页</a>
-          <a href="javascript:listTable.gotoPageNext()">下一页</a>
-          <a href="javascript:listTable.gotoPageLast()">最末页</a>
-          <select id="gotoPage" onchange="listTable.gotoPage(this.value)">
-            <option value="1">1</option>          </select>
-        </span>
+                <?php echo $pageInfo;?>
+        <!--总计  <span id="totalRecords">10</span>-->
+        <!--个记录分为 <span id="totalPages">1</span>-->
+        <!--页当前第 <span id="pageCurrent">1</span>-->
+        <!--页，每页 <input type="text" size="3" id="pageSize" value="10" onkeypress="return listTable.changePageSize(event)">-->
+        <!--<span id="page-link">-->
+          <!--<a href="javascript:listTable.gotoPageFirst()">第一页</a>-->
+          <!--<a href="javascript:listTable.gotoPagePrev()">上一页</a>-->
+          <!--<a href="javascript:listTable.gotoPageNext()">下一页</a>-->
+          <!--<a href="javascript:listTable.gotoPageLast()">最末页</a>-->
+          <!--<select id="gotoPage" onchange="listTable.gotoPage(this.value)">-->
+            <!--<option value="1">1</option>          </select>-->
+        <!--</span>-->
       </div>
       </td>
     </tr>

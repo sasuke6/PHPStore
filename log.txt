@@ -35,3 +35,208 @@
 [2016-09-27 00:34104]set names utf8
 [2016-09-27 00:34104]DESC cy_goods_type
 [2016-09-27 00:34104]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:38157]set names utf8
+[2016-09-27 00:38157]DESC cy_admin
+[2016-09-27 00:38157]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-09-27 00:38157]set names utf8
+[2016-09-27 00:38157]DESC cy_category
+[2016-09-27 00:38157]SELECT * FROM cy_category
+[2016-09-27 00:42136]set names utf8
+[2016-09-27 00:42136]DESC cy_goods_type
+[2016-09-27 00:42136]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:42154]set names utf8
+[2016-09-27 00:42154]DESC cy_category
+[2016-09-27 00:42154]SELECT * FROM cy_category
+[2016-09-27 00:42156]set names utf8
+[2016-09-27 00:42156]DESC cy_goods_type
+[2016-09-27 00:42156]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 00:43133]set names utf8
+[2016-09-27 00:43133]DESC cy_category
+[2016-09-27 00:43133]SELECT * FROM cy_category
+[2016-09-27 00:43137]set names utf8
+[2016-09-27 00:43137]DESC cy_goods_type
+[2016-09-27 00:43137]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:24127]set names utf8
+[2016-09-27 14:24127]DESC cy_category
+[2016-09-27 14:24127]SELECT * FROM cy_category
+[2016-09-27 14:24132]set names utf8
+[2016-09-27 14:24132]DESC cy_goods_type
+[2016-09-27 14:24132]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:24136]set names utf8
+[2016-09-27 14:24136]DESC cy_goods_type
+[2016-09-27 14:24136]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:28159]set names utf8
+[2016-09-27 14:28159]DESC cy_goods_type
+[2016-09-27 14:28159]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('苹果iPhone')
+[2016-09-27 14:29101]set names utf8
+[2016-09-27 14:29101]DESC cy_goods_type
+[2016-09-27 14:29101]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:29118]set names utf8
+[2016-09-27 14:29118]DESC cy_goods_type
+[2016-09-27 14:29118]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('小米')
+[2016-09-27 14:29121]set names utf8
+[2016-09-27 14:29121]DESC cy_goods_type
+[2016-09-27 14:29121]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:29148]set names utf8
+[2016-09-27 14:29148]DESC cy_goods_type
+[2016-09-27 14:29148]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('Vivo')
+[2016-09-27 14:29150]set names utf8
+[2016-09-27 14:29150]DESC cy_goods_type
+[2016-09-27 14:29150]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:29158]set names utf8
+[2016-09-27 14:29158]DESC cy_goods_type
+[2016-09-27 14:29158]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('魅族')
+[2016-09-27 14:30100]set names utf8
+[2016-09-27 14:30100]DESC cy_goods_type
+[2016-09-27 14:30100]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:30117]set names utf8
+[2016-09-27 14:30117]DESC cy_goods_type
+[2016-09-27 14:30117]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('OPPO')
+[2016-09-27 14:30119]set names utf8
+[2016-09-27 14:30119]DESC cy_goods_type
+[2016-09-27 14:30119]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:30126]set names utf8
+[2016-09-27 14:30126]DESC cy_goods_type
+[2016-09-27 14:30126]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('华为')
+[2016-09-27 14:30128]set names utf8
+[2016-09-27 14:30128]DESC cy_goods_type
+[2016-09-27 14:30128]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:30138]set names utf8
+[2016-09-27 14:30138]DESC cy_goods_type
+[2016-09-27 14:30138]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('三星')
+[2016-09-27 14:30140]set names utf8
+[2016-09-27 14:30140]DESC cy_goods_type
+[2016-09-27 14:30140]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:30149]set names utf8
+[2016-09-27 14:30149]DESC cy_goods_type
+[2016-09-27 14:30149]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('中兴')
+[2016-09-27 14:30151]set names utf8
+[2016-09-27 14:30151]DESC cy_goods_type
+[2016-09-27 14:30151]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:31103]set names utf8
+[2016-09-27 14:31103]DESC cy_goods_type
+[2016-09-27 14:31103]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('乐视')
+[2016-09-27 14:31105]set names utf8
+[2016-09-27 14:31105]DESC cy_goods_type
+[2016-09-27 14:31105]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:31121]set names utf8
+[2016-09-27 14:31121]DESC cy_goods_type
+[2016-09-27 14:31121]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('锤子')
+[2016-09-27 14:31124]set names utf8
+[2016-09-27 14:31124]DESC cy_goods_type
+[2016-09-27 14:31124]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:31155]set names utf8
+[2016-09-27 14:31155]DESC cy_goods_type
+[2016-09-27 14:31155]INSERT INTO `cy_goods_type` (`type_name`) VALUES ('荣耀')
+[2016-09-27 14:31157]set names utf8
+[2016-09-27 14:31157]DESC cy_goods_type
+[2016-09-27 14:31157]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:32126]set names utf8
+[2016-09-27 14:32126]DESC cy_goods_type
+[2016-09-27 14:32126]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:32153]set names utf8
+[2016-09-27 14:32153]DESC cy_goods_type
+[2016-09-27 14:32153]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 14:33125]set names utf8
+[2016-09-27 14:33125]DESC cy_goods_type
+[2016-09-27 14:33125]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 15:57118]set names utf8
+[2016-09-27 15:57118]DESC cy_admin
+[2016-09-27 15:57118]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-09-27 15:57118]set names utf8
+[2016-09-27 15:57118]DESC cy_category
+[2016-09-27 15:57118]SELECT * FROM cy_category
+[2016-09-27 15:57123]set names utf8
+[2016-09-27 15:57123]DESC cy_goods_type
+[2016-09-27 15:57123]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:57123]select count(*) from cy_goods_type
+[2016-09-27 15:57126]set names utf8
+[2016-09-27 15:57126]DESC cy_goods_type
+[2016-09-27 15:57126]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:57126]select count(*) from cy_goods_type
+[2016-09-27 15:57129]set names utf8
+[2016-09-27 15:57129]DESC cy_category
+[2016-09-27 15:57129]SELECT * FROM cy_category
+[2016-09-27 15:57130]set names utf8
+[2016-09-27 15:57130]DESC cy_goods_type
+[2016-09-27 15:57130]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:57130]select count(*) from cy_goods_type
+[2016-09-27 15:58105]set names utf8
+[2016-09-27 15:58105]DESC cy_category
+[2016-09-27 15:58105]SELECT * FROM cy_category
+[2016-09-27 15:58108]set names utf8
+[2016-09-27 15:58108]DESC cy_goods_type
+[2016-09-27 15:58108]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:58108]select count(*) from cy_goods_type
+[2016-09-27 15:58156]set names utf8
+[2016-09-27 15:58156]DESC cy_category
+[2016-09-27 15:58156]SELECT * FROM cy_category
+[2016-09-27 15:58159]set names utf8
+[2016-09-27 15:58159]DESC cy_goods_type
+[2016-09-27 15:58159]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:58159]select count(*) from cy_goods_type
+[2016-09-27 15:59116]set names utf8
+[2016-09-27 15:59116]DESC cy_category
+[2016-09-27 15:59116]SELECT * FROM cy_category
+[2016-09-27 15:59122]set names utf8
+[2016-09-27 15:59122]DESC cy_goods_type
+[2016-09-27 15:59122]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:59122]select count(*) from cy_goods_type
+[2016-09-27 15:59124]set names utf8
+[2016-09-27 15:59124]DESC cy_goods_type
+[2016-09-27 15:59124]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 2,2
+[2016-09-27 15:59124]select count(*) from cy_goods_type
+[2016-09-27 15:59125]set names utf8
+[2016-09-27 15:59125]DESC cy_goods_type
+[2016-09-27 15:59125]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 15:59125]select count(*) from cy_goods_type
+[2016-09-27 23:45132]set names utf8
+[2016-09-27 23:45132]DESC cy_goods_type
+[2016-09-27 23:45132]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 23:45132]select count(*) from cy_goods_type
+[2016-09-27 23:45149]set names utf8
+[2016-09-27 23:45149]DESC cy_admin
+[2016-09-27 23:45149]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-09-27 23:45149]set names utf8
+[2016-09-27 23:45149]DESC cy_category
+[2016-09-27 23:45149]SELECT * FROM cy_category
+[2016-09-27 23:46141]set names utf8
+[2016-09-27 23:46141]DESC cy_category
+[2016-09-27 23:46141]SELECT * FROM cy_category
+[2016-09-27 23:46145]set names utf8
+[2016-09-27 23:46145]DESC cy_goods_type
+[2016-09-27 23:46145]SELECT * FROM cy_goods_type ORDER BY type_id LIMIT 0,2
+[2016-09-27 23:46145]select count(*) from cy_goods_type
+[2016-09-27 23:46157]set names utf8
+[2016-09-27 23:46157]DESC cy_goods_type
+[2016-09-27 23:46157]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 23:47121]set names utf8
+[2016-09-27 23:47121]DESC cy_goods_type
+[2016-09-27 23:47121]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-27 23:59142]set names utf8
+[2016-09-27 23:59142]DESC cy_goods_type
+[2016-09-27 23:59142]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:19105]set names utf8
+[2016-09-28 00:19105]DESC cy_goods_type
+[2016-09-28 00:19105]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:29119]set names utf8
+[2016-09-28 00:29119]DESC cy_goods_type
+[2016-09-28 00:29119]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:29138]set names utf8
+[2016-09-28 00:29138]DESC cy_attribute
+[2016-09-28 00:29138]INSERT INTO `cy_attribute` (`attr_name`,`type_id`,`attr_type`,`attr_input_type`,`attr_value`) VALUES ('iPhone 7','1','0','','')
+[2016-09-28 00:30111]set names utf8
+[2016-09-28 00:30111]DESC cy_goods_type
+[2016-09-28 00:30111]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:30116]set names utf8
+[2016-09-28 00:30116]DESC cy_attribute
+[2016-09-28 00:30116]INSERT INTO `cy_attribute` (`attr_name`,`type_id`,`attr_type`,`attr_input_type`,`attr_value`) VALUES ('iPhone 7','1','0','0','')
+[2016-09-28 00:30118]set names utf8
+[2016-09-28 00:30118]DESC cy_goods_type
+[2016-09-28 00:30118]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:30144]set names utf8
+[2016-09-28 00:30144]DESC cy_goods_type
+[2016-09-28 00:30144]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-28 00:32105]set names utf8
+[2016-09-28 00:32105]DESC cy_goods_type
+[2016-09-28 00:32105]SELECT * FROM cy_goods_type ORDER BY type_id
