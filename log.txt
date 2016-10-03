@@ -240,3 +240,94 @@
 [2016-09-28 00:32105]set names utf8
 [2016-09-28 00:32105]DESC cy_goods_type
 [2016-09-28 00:32105]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:08116]set names utf8
+[2016-09-29 00:08116]DESC cy_admin
+[2016-09-29 00:08116]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-09-29 00:08116]set names utf8
+[2016-09-29 00:08116]DESC cy_category
+[2016-09-29 00:08116]SELECT * FROM cy_category
+[2016-09-29 00:09139]set names utf8
+[2016-09-29 00:09139]DESC cy_goods_type
+[2016-09-29 00:09139]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:09139]set names utf8
+[2016-09-29 00:09139]DESC cy_attribute
+[2016-09-29 00:10117]set names utf8
+[2016-09-29 00:10117]DESC cy_goods_type
+[2016-09-29 00:10117]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:10117]set names utf8
+[2016-09-29 00:10117]DESC cy_attribute
+[2016-09-29 00:11155]set names utf8
+[2016-09-29 00:11155]DESC cy_goods_type
+[2016-09-29 00:11155]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:11155]set names utf8
+[2016-09-29 00:11155]DESC cy_attribute
+[2016-09-29 00:12112]set names utf8
+[2016-09-29 00:12112]DESC cy_goods_type
+[2016-09-29 00:12112]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:12112]set names utf8
+[2016-09-29 00:12112]DESC cy_attribute
+[2016-09-29 00:12132]set names utf8
+[2016-09-29 00:12132]DESC cy_goods_type
+[2016-09-29 00:12132]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:12132]set names utf8
+[2016-09-29 00:12132]DESC cy_attribute
+[2016-09-29 00:12135]set names utf8
+[2016-09-29 00:12135]DESC cy_goods_type
+[2016-09-29 00:12135]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:12135]set names utf8
+[2016-09-29 00:12135]DESC cy_attribute
+[2016-09-29 00:12149]set names utf8
+[2016-09-29 00:12149]DESC cy_goods_type
+[2016-09-29 00:12149]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:12149]set names utf8
+[2016-09-29 00:12149]DESC cy_attribute
+[2016-09-29 00:13140]set names utf8
+[2016-09-29 00:13140]DESC cy_goods_type
+[2016-09-29 00:13140]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:13140]set names utf8
+[2016-09-29 00:13140]DESC cy_attribute
+[2016-09-29 00:13156]set names utf8
+[2016-09-29 00:13156]DESC cy_goods_type
+[2016-09-29 00:13156]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:13156]set names utf8
+[2016-09-29 00:13156]DESC cy_attribute
+[2016-09-29 00:15142]set names utf8
+[2016-09-29 00:15142]DESC cy_goods_type
+[2016-09-29 00:15142]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:15142]set names utf8
+[2016-09-29 00:15142]DESC cy_attribute
+[2016-09-29 00:17114]set names utf8
+[2016-09-29 00:17114]DESC cy_goods_type
+[2016-09-29 00:17114]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:17114]set names utf8
+[2016-09-29 00:17114]DESC cy_attribute
+[2016-09-29 00:17133]set names utf8
+[2016-09-29 00:17133]DESC cy_goods_type
+[2016-09-29 00:17133]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:17133]set names utf8
+[2016-09-29 00:17133]DESC cy_attribute
+[2016-09-29 00:19154]set names utf8
+[2016-09-29 00:19154]DESC cy_goods_type
+[2016-09-29 00:19154]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-09-29 00:19154]set names utf8
+[2016-09-29 00:19154]DESC cy_attribute
+[2016-10-03 02:58137]set names utf8
+[2016-10-03 02:58137]DESC cy_admin
+[2016-10-03 02:58137]SELECT * FROM cy_admin WHERE admin_name = 'admin' AND password = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1
+[2016-10-03 02:58137]set names utf8
+[2016-10-03 02:58137]DESC cy_category
+[2016-10-03 02:58137]SELECT * FROM cy_category
+[2016-10-03 02:58146]set names utf8
+[2016-10-03 02:58146]DESC cy_goods_type
+[2016-10-03 02:58146]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-10-03 02:58146]set names utf8
+[2016-10-03 02:58146]DESC cy_attribute
+[2016-10-03 02:58146]select count(*) from cy_attribute
+[2016-10-03 02:58146]SELECT a.*,b.type_name FROM cy_attribute AS A INNER JOIN cy_goods_type AS b ON a.type_id = b.type_id WHERE a.type_id = 0
+[2016-10-03 03:00143]set names utf8
+[2016-10-03 03:00143]DESC cy_goods_type
+[2016-10-03 03:00143]SELECT * FROM cy_goods_type ORDER BY type_id
+[2016-10-03 03:00143]set names utf8
+[2016-10-03 03:00143]DESC cy_attribute
+[2016-10-03 03:00143]select count(*) from cy_attribute
+[2016-10-03 03:00143]SELECT a.*,b.type_name FROM cy_attribute AS A INNER JOIN cy_goods_type AS b ON a.type_id = b.type_id WHERE a.type_id = 0

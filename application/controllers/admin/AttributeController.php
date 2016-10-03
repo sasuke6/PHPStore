@@ -4,6 +4,23 @@ class AttributeController extends BaseController {
     public function indexAction() {
         $typeModel = new TypeModel("goods_type");
         $types = $typeModel->getTypes();
+        $attrModel = new AttributeModel("attribute");
+
+        $type_id = $_GET['type_id'] + 0;
+        $current = isset($_GET['page']) ? $_GET['page'] : 1;
+
+        $pagesize = 2;
+        $where = "$type_id";
+        $total = $attrModel->total($where);
+
+        $offset = ($current - 1) * $pagesize;
+        $attrs = $attrModel->getAttrs($type_id,$offset,$pagesize);
+
+        $this->library("Page");
+        $page = new Page($total,$pagesize,$current,'index.php',
+                            array('p'=>'admin','c'=>'attribute','a'=>'index','type_id' => $type_id));
+
+        $pageinfo = $page->showPage();
 
 
         include  CUR_VIEW_PATH . "attribute_list.html";
@@ -36,5 +53,18 @@ class AttributeController extends BaseController {
         } else {
             $this->jump("index.php?p=admin&c=attribute&a=add","添加属性失败",2);
         }
+    }
+
+    public function getAttrsAction() {
+        $type_id = $_GET['type_id'] + 0;
+        $attrModel = new AttributeModel('attribute');
+        $attrs = $attrModel->getAttrsForm($type_id);
+        echo <<<STR
+<script type="text/javascript">
+  window.parent.document.geyElementById("tbody-goodsAttr").innerHTML = "$attrs";
+<script>
+STR;
+
+
     }
 }

@@ -129,7 +129,7 @@ class Mysql{
      * @return 错误号
      */
     public function errno(){
-        return mysql_errno($this->conn);
+        return mysqli_errno($this->conn);
     }
 
     /**
@@ -138,7 +138,7 @@ class Mysql{
      * @return 错误private信息
      */
     public function error(){
-        return mysql_error($this->conn);
+        return mysqli_errno($this->conn);
     }
 
 }
